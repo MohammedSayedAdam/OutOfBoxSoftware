@@ -1,0 +1,35 @@
+﻿/*.logo{
+    width:160px;
+    height:95px; 
+    position:absolute;
+    top: 0;
+    // left: 0;
+    border-radius: 0 0 5px 5px; 
+}*/
+
+.test {
+    background-image: url("../img/logo1.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: calc(97.5vh - 40px);
+}
+.slogan{
+    color:white;
+}
+.logo{
+    font-size:20px;
+    font-weight:bold;
+    color: #e1f765 !important;
+}
+.nav{
+    position: relative;
+}
+.bor {
+    border-color: darkred;
+}
+body {
+ background-color:#ddd;
+ overflow-x: hidden;
+}
+
