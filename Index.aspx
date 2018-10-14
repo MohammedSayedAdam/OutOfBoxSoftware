@@ -18,6 +18,7 @@
 </head>
 
 <body>
+    <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="#">
@@ -36,12 +37,12 @@
                         <a class="nav-link" href="#about">ABOUT</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SERVICES
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SERVICES
                         </a>
                         <div class="dropdown-menu  slogan" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">WEBSITES</a>
-                            <a class="dropdown-item" href="#">DESKTOP APPS</a>
-                            <a class="dropdown-item" href="#">ANDROID</a>
+                            <a class="dropdown-item" href="#websites">WEBSITES</a>
+                            <a class="dropdown-item" href="#desktop">DESKTOP APPS</a>
+                            <a class="dropdown-item" href="#android">ANDROID</a>
                             <%--<div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#">Something else here</a>--%>
                         </div>
@@ -49,9 +50,9 @@
                     <%-- <li class="nav-item">
                         <a class="nav-link" href="#">SERVICES</a>
                     </li>--%>
-                    <li class="nav-item">
+                   <%-- <li class="nav-item">
                         <a class="nav-link" href="#">OUR WORKS</a>
-                    </li>
+                    </li>--%>
 
                     <li class="nav-item">
                         <a class="nav-link" href="#">CONTACT</a>
@@ -69,7 +70,7 @@
             <div class="row">
                 <div class="col-12 ">
                     <div class="forront">
-                        <span class="">We are <span class="yel">proud </span>of you to be here ..<br />
+                        <span class="slogan">We are <span class="yel">proud </span>of you to be here ..<br />
                             our mission is to <span class="yel">satisfy </span>your need</span>
                     </div>
                 </div>
@@ -81,37 +82,64 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <p>We are Csians Team</p>
+                    <%-- continue the rest --%>
+                    <p>This is our Stratup Company This is our Stratup Company This is our Stratup Company</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-3">
                     <figure>
-                        <img src="img/bg2.jpg" alt="Mohammed Sayed Adam" class="img-thumbnail"/>
-                        <figcaption class="text-center">Mohammed Sayed Adam</figcaption>
-                        <figcaption class="text-center">CEO</figcaption>
-                    </figure>
-                </div>
-              <div class="col-3">
-                    <figure>
-                        <img src="img/bg2.jpg" alt="Mohammed sayed adam" class="img-thumbnail"/>
+                        <img src="img/bg2.jpg" alt="Mohammed Sayed Adam" class="img-thumbnail" />
                         <figcaption class="text-center">Mohammed Sayed Adam</figcaption>
                         <figcaption class="text-center">CEO</figcaption>
                     </figure>
                 </div>
                 <div class="col-3">
                     <figure>
-                        <img src="img/bg2.jpg" alt="Mohammed sayed adam" class="img-thumbnail"/>
+                        <img src="img/bg2.jpg" alt="Mohammed sayed adam" class="img-thumbnail" />
                         <figcaption class="text-center">Mohammed Sayed Adam</figcaption>
                         <figcaption class="text-center">CEO</figcaption>
                     </figure>
                 </div>
                 <div class="col-3">
                     <figure>
-                        <img src="img/bg2.jpg" alt="Mohammed sayed adam" class="img-thumbnail"/>
+                        <img src="img/bg2.jpg" alt="Mohammed sayed adam" class="img-thumbnail" />
                         <figcaption class="text-center">Mohammed Sayed Adam</figcaption>
                         <figcaption class="text-center">CEO</figcaption>
                     </figure>
+                </div>
+                <div class="col-3">
+                    <figure>
+                        <img src="img/bg2.jpg" alt="Mohammed sayed adam" class="img-thumbnail" />
+                        <figcaption class="text-center">Mohammed Sayed Adam</figcaption>
+                        <figcaption class="text-center">CEO</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services section -->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <section id="websites">
+                        <p>websites</p>
+                    </section>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <section id="desktop">
+                        <p>desktop</p>
+                    </section>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <section id="android">
+                        <p>android</p>
+                    </section>
                 </div>
             </div>
         </div>
