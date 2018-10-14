@@ -67,11 +67,11 @@
     <section class="test">
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <div class="text-center">
-                        <span class="">Our Products Talk About Us</span>
+                <div class="col-12 ">
+                    <div class="forront">
+                        <span class="">We are <span class="yel">proud </span>of you to be here ..<br />
+                            our mission is to <span class="yel">satisfy </span>your need</span>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -80,7 +80,39 @@
     <section id="about">
         <div class="container">
             <div class="row">
-                <p>mohammemmemmmdmdmkikdsajkdsajklofdasldasjdsah</p>
+                <div class="col-12">
+                    <p>We are Csians Team</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <figure>
+                        <img src="img/bg2.jpg" alt="Mohammed Sayed Adam" class="img-thumbnail"/>
+                        <figcaption class="text-center">Mohammed Sayed Adam</figcaption>
+                        <figcaption class="text-center">CEO</figcaption>
+                    </figure>
+                </div>
+              <div class="col-3">
+                    <figure>
+                        <img src="img/bg2.jpg" alt="Mohammed sayed adam" class="img-thumbnail"/>
+                        <figcaption class="text-center">Mohammed Sayed Adam</figcaption>
+                        <figcaption class="text-center">CEO</figcaption>
+                    </figure>
+                </div>
+                <div class="col-3">
+                    <figure>
+                        <img src="img/bg2.jpg" alt="Mohammed sayed adam" class="img-thumbnail"/>
+                        <figcaption class="text-center">Mohammed Sayed Adam</figcaption>
+                        <figcaption class="text-center">CEO</figcaption>
+                    </figure>
+                </div>
+                <div class="col-3">
+                    <figure>
+                        <img src="img/bg2.jpg" alt="Mohammed sayed adam" class="img-thumbnail"/>
+                        <figcaption class="text-center">Mohammed Sayed Adam</figcaption>
+                        <figcaption class="text-center">CEO</figcaption>
+                    </figure>
+                </div>
             </div>
         </div>
     </section>
