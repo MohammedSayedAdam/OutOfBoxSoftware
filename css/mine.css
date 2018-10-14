@@ -6,7 +6,17 @@
     // left: 0;
     border-radius: 0 0 5px 5px; 
 }*/
-
+.yel{
+     color: #f8a10c !important;
+     font-weight:bold;
+}
+.forront {
+    font-family:'MV Boli';
+    top: 500%;
+    right:23%;
+    font-size:xx-large;
+    position:absolute;
+}
 .test {
     background-image: url("../img/logo1.png");
     background-repeat: no-repeat;
@@ -20,7 +30,7 @@
 .logo{
     font-size:20px;
     font-weight:bold;
-    color: #e1f765 !important;
+    color: #f8a10c !important;/*//#e1f765 */
 }
 .nav{
     position: relative;
