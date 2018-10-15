@@ -19,7 +19,7 @@
 
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top nav">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <%--<img src="img/logo1.png" class="logo" />--%>
@@ -50,12 +50,12 @@
                     <%-- <li class="nav-item">
                         <a class="nav-link" href="#">SERVICES</a>
                     </li>--%>
-                   <%-- <li class="nav-item">
+                    <%-- <li class="nav-item">
                         <a class="nav-link" href="#">OUR WORKS</a>
                     </li>--%>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACT</a>
+                        <a class="nav-link" href="#contact">CONTACT</a>
                     </li>
                     <%-- <li class="nav-item">
                         <a class="nav-link disabled" href="#">Disabled</a>
@@ -89,7 +89,7 @@
             <div class="row">
                 <div class="col-3">
                     <figure>
-                        <img src="img/bg2.jpg" alt="Mohammed Sayed Adam" class="img-thumbnail" />
+                        <img src="img/bg2.jpg" alt="Mohammed Sayed Adam" class="img-thumbnail rounded-circle " />
                         <figcaption class="text-center">Mohammed Sayed Adam</figcaption>
                         <figcaption class="text-center">CEO</figcaption>
                     </figure>
@@ -144,5 +144,54 @@
             </div>
         </div>
     </section>
+    <!-- contact section -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <header class="text-center">
+                    <h2 class="">CONTACT ME</h2>
+                </header>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8 text-center">
+                <form class="form-group" id="contact">
+                    <div class="form-row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="First name">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Last name">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Your email">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Your phone">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                    </div>
+                    <div class="form-row">
+                        <textarea class="form-control" placeholder="Your message" rows="4" required="required" name="message"></textarea>
+                    </div>
+                    <div class="form-row">
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <button type="submit" class="btn btn-outline-primary">Send message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark">
+    </footer>
 </body>
 </html>
