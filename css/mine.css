@@ -23,6 +23,9 @@
     letter-spacing: 0;
 }
 
+.navbar-brand {
+    line-height: 2;
+}
 .yel {
     color: #f8a10c !important;
     font-weight: bold;
@@ -45,7 +48,7 @@
     max-width:100%;
 }
 main{
-    margin-top: 58px;
+    margin-top: 50px;
 
 }
 .slogan {
@@ -55,6 +58,7 @@ main{
 .logo {
     font-size: 20px;
     font-weight: bold;
+    margin-bottom: 0;
     color: #f8a10c !important; /*//#e1f765 */
 }
 
@@ -69,6 +73,6 @@ main{
 }
 
 body {
-    background-color: #181b1d;
+    background-color: #fff ;/*#181b1d;*/
     overflow-x: hidden;
 }
