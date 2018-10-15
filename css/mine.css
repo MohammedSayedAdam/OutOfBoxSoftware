@@ -6,17 +6,36 @@
     // left: 0;
     border-radius: 0 0 5px 5px; 
 }*/
-.yel{
-     color: #f8a10c !important;
-     font-weight:bold;
+.title {
+    display: inline-block;
+    font-size: 2.9rem;
+    font-weight: 100;
+    padding: 10px 0;
+    margin-bottom: 44px;
+    text-align: center;
+    border-bottom: solid 1px #ccc;
+    border-top: solid 1px #ccc;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1.2;
+    color: #555;
+    margin-top: 20px;
+    letter-spacing: 0;
 }
+
+.yel {
+    color: #f8a10c !important;
+    font-weight: bold;
+}
+
 .forront {
-    font-family:'MV Boli';
-    top: 500%;
-    right:23%;
-    font-size:xx-large;
-    position:absolute;
+    font-family: 'MV Boli';
+    top: 700%;
+    right: 23%;
+    font-size: xx-large;
+    position: absolute;
 }
+
 .test {
     background-image: url("../img/logo1.png");
     background-repeat: no-repeat;
@@ -24,22 +43,28 @@
     background-size: cover;
     height: calc(97.5vh - 40px);
 }
-.slogan{
-    color:white;
+
+.slogan {
+    color: white;
 }
-.logo{
-    font-size:20px;
-    font-weight:bold;
-    color: #f8a10c !important;/*//#e1f765 */
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f8a10c !important; /*//#e1f765 */
 }
-.nav{
-    position: relative;
+
+.nav {
+   
+    padding:0px !important;
+    margin:0px !important;
 }
+
 .bor {
     border-color: darkred;
 }
-body {
- background-color:#ddd;
- overflow-x: hidden;
-}
 
+body {
+    background-color: #ddd;
+    overflow-x: hidden;
+}
