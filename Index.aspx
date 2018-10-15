@@ -83,7 +83,7 @@
         <section id="about">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12 slogan">
                         <%-- continue the rest --%>
                         <p>This is our Stratup Company This is our Stratup Company This is our Stratup Company</p>
                     </div>
