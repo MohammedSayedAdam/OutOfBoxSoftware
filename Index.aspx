@@ -80,7 +80,7 @@
             </div>
         </section>
         <!-- about section -->
-        <section id="about">
+        <section id="about" class="aboutsection">
             <div class="container">
                 <div class="row">
                     <div class="col-12 slogan">
@@ -121,26 +121,140 @@
             </div>
         </section>
         <!-- services section -->
-        <section id="services">
+        <section id="services" class="servicessection">
             <div class="container">
                 <div class="row">
                     <div class="col-12 slogan">
                         <section id="websites">
-                            <p>websites</p>
+                            <div class="bg-secondary"><h1 class="text-center">Websites</h1></div>
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100 img-thumbnail" src="img/bg1.jpg" alt="First slide">
+                                        <div class="carousel-caption d-none d-md-block yel">
+                                            <h5>first work</h5>
+                                            <p>descriptiondescriptiondescriptiondescription</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100 img-thumbnail" src="img/logo.png" alt="Second slide">
+                                        <div class="carousel-caption d-none d-md-block yel">
+                                            <h5>second work</h5>
+                                            <p >descriptiondescriptiondescription</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100 img-thumbnail" src="img/logo1.png" alt="Third slide">
+                                        <div class="carousel-caption d-none d-md-block yel">
+                                            <h5>third work</h5>
+                                            <p>descriptiondescriptiondescription</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
                         </section>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12 slogan">
                         <section id="desktop">
-                            <p>desktop</p>
+                            <div class="bg-secondary"><h1 class="text-center">desktop</h1></div>
+                            <div id="desktopindicators" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#desktopindicators" data-slide-to="0" class="active"></li>
+                                    <li data-target="#desktopindicators" data-slide-to="1"></li>
+                                    <li data-target="#desktopindicators" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100 img-thumbnail" src="img/bg1.jpg" alt="First slide">
+                                        <div class="carousel-caption d-none d-md-block yel">
+                                            <h5>first work</h5>
+                                            <p>descriptiondescriptiondescriptiondescription</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100 img-thumbnail" src="img/logo.png" alt="Second slide">
+                                        <div class="carousel-caption d-none d-md-block yel">
+                                            <h5>second work</h5>
+                                            <p >descriptiondescriptiondescription</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100 img-thumbnail" src="img/logo1.png" alt="Third slide">
+                                        <div class="carousel-caption d-none d-md-block yel">
+                                            <h5>third work</h5>
+                                            <p>descriptiondescriptiondescription</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#desktopindicators" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#desktopindicators" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
                         </section>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12 slogan">
                         <section id="android">
-                            <p>android</p>
+                             <div class="bg-secondary"><h1 class="text-center">android</h1></div>
+                            <div id="androidindicators" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#androidindicators" data-slide-to="0" class="active"></li>
+                                    <li data-target="#androidindicators" data-slide-to="1"></li>
+                                    <li data-target="#androidindicators" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100 img-thumbnail" src="img/bg1.jpg" alt="First slide">
+                                        <div class="carousel-caption d-none d-md-block yel">
+                                            <h5>first work</h5>
+                                            <p>descriptiondescriptiondescriptiondescription</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100 img-thumbnail" src="img/logo.png" alt="Second slide">
+                                        <div class="carousel-caption d-none d-md-block yel">
+                                            <h5>second work</h5>
+                                            <p >descriptiondescriptiondescription</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100 img-thumbnail" src="img/logo1.png" alt="Third slide">
+                                        <div class="carousel-caption d-none d-md-block yel">
+                                            <h5>third work</h5>
+                                            <p>descriptiondescriptiondescription</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#androidindicators" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#androidindicators" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
                         </section>
                     </div>
                 </div>
@@ -151,7 +265,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <header class="text-center slogan">
-                        <h2 class="">CONTACT ME</h2>
+                      <div class="bg-secondary"><h1 class="text-center">CONTACT</h1></div>
                     </header>
                 </div>
             </div>
