@@ -12,6 +12,7 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="jq/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/mine.js"></script>
     <link href="css/mine.css" rel="stylesheet">
     <!-- icon link -->
     <link rel="icon" href="img/logo.png">
@@ -34,7 +35,8 @@
                         <a class="nav-link" href="#first">INTRO <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">ABOUT</a>
+                        <%-- <button  class="nav-link" onclick="scrollToTop()" >ABOUT</button>--%>
+                        <a class="nav-link" href="#about" onclick="scrollToTop()">ABOUT</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SERVICES
@@ -50,9 +52,9 @@
                     <%-- <li class="nav-item">
                         <a class="nav-link" href="#">SERVICES</a>
                     </li>--%>
-                    <%-- <li class="nav-item">
-                        <a class="nav-link" href="#">OUR WORKS</a>
-                    </li>--%>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tools">TOOLS</a>
+                    </li>
 
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">CONTACT</a>
@@ -72,8 +74,8 @@
                 <div class="row">
                     <div class="col-12 ">
                         <div class="forront   text-md-center">
-                            <span class="slogan">We are <span class="yel">proud </span>of you to be here ..<br />
-                                our mission is to <span class="yel">satisfy </span>your need</span>
+                            <span class="slogan">We are <span class="yel" id="word1">proud </span>of you to be here ..<br />
+                                our mission is to <span class="yel" id="word2">satisfy </span>your need</span>
                         </div>
                     </div>
                 </div>
@@ -126,7 +128,9 @@
                 <div class="row">
                     <div class="col-12 slogan">
                         <section id="websites">
-                            <div class="bg-secondary"><h1 class="text-center">Websites</h1></div>
+                            <div class="bg-secondary">
+                                <h1 class="text-center">Websites</h1>
+                            </div>
                             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                                 <ol class="carousel-indicators">
                                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -145,7 +149,7 @@
                                         <img class="d-block w-100 img-thumbnail" src="img/logo.png" alt="Second slide">
                                         <div class="carousel-caption d-none d-md-block yel">
                                             <h5>second work</h5>
-                                            <p >descriptiondescriptiondescription</p>
+                                            <p>descriptiondescriptiondescription</p>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
@@ -171,7 +175,9 @@
                 <div class="row">
                     <div class="col-12 slogan">
                         <section id="desktop">
-                            <div class="bg-secondary"><h1 class="text-center">desktop</h1></div>
+                            <div class="bg-secondary">
+                                <h1 class="text-center">desktop</h1>
+                            </div>
                             <div id="desktopindicators" class="carousel slide" data-ride="carousel">
                                 <ol class="carousel-indicators">
                                     <li data-target="#desktopindicators" data-slide-to="0" class="active"></li>
@@ -190,7 +196,7 @@
                                         <img class="d-block w-100 img-thumbnail" src="img/logo.png" alt="Second slide">
                                         <div class="carousel-caption d-none d-md-block yel">
                                             <h5>second work</h5>
-                                            <p >descriptiondescriptiondescription</p>
+                                            <p>descriptiondescriptiondescription</p>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
@@ -216,7 +222,9 @@
                 <div class="row">
                     <div class="col-12 slogan">
                         <section id="android">
-                             <div class="bg-secondary"><h1 class="text-center">android</h1></div>
+                            <div class="bg-secondary">
+                                <h1 class="text-center">android</h1>
+                            </div>
                             <div id="androidindicators" class="carousel slide" data-ride="carousel">
                                 <ol class="carousel-indicators">
                                     <li data-target="#androidindicators" data-slide-to="0" class="active"></li>
@@ -235,7 +243,7 @@
                                         <img class="d-block w-100 img-thumbnail" src="img/logo.png" alt="Second slide">
                                         <div class="carousel-caption d-none d-md-block yel">
                                             <h5>second work</h5>
-                                            <p >descriptiondescriptiondescription</p>
+                                            <p>descriptiondescriptiondescription</p>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
@@ -265,7 +273,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <header class="text-center slogan">
-                      <div class="bg-secondary"><h1 class="text-center">CONTACT</h1></div>
+                        <div class="bg-secondary">
+                            <h1 class="text-center">CONTACT</h1>
+                        </div>
                     </header>
                 </div>
             </div>
@@ -304,8 +314,37 @@
                 </div>
             </div>
         </div>
+        <!-- tools section -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>tools which used in our solutions</p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="progress">
+                        <h5>ASP.NET MVC</h5>
+                        <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="progress">
+                         <h5>ASP.NET MVC</h5>
+                        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="progress">
+                         <h5>ASP.NET MVC</h5>
+                        <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="progress">
+                         <h5>ASP.NET MVC</h5>
+                        <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="progress">
+                         <h5>ASP.NET MVC</h5>
+                        <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
-
     <footer class="bg-dark">
     </footer>
 </body>
