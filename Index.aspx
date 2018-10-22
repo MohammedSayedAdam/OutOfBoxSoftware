@@ -14,6 +14,8 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/mine.js"></script>
     <link href="css/mine.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
     <!-- icon link -->
     <link rel="icon" href="img/logo.png">
 </head>
@@ -52,9 +54,9 @@
                     <%-- <li class="nav-item">
                         <a class="nav-link" href="#">SERVICES</a>
                     </li>--%>
-                    <li class="nav-item">
+                    <%-- <li class="nav-item">
                         <a class="nav-link" href="#tools">TOOLS</a>
-                    </li>
+                    </li>--%>
 
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">CONTACT</a>
@@ -78,6 +80,30 @@
                                 our mission is to <span class="yel" id="word2">satisfy </span>your need</span>
                         </div>
                     </div>
+                </div>
+                <!-- social section -->
+                <div class="media d-flex flex-column">
+                      <a href="https://www.facebook.com/hardworkerteam"><i class="fa fa-facebook-square"></i></a>
+                      <a href="https://www.facebook.com/hardworkerteam"><i class="fa fa-google-plus-square"></i></a>
+                      <a href="https://www.facebook.com/hardworkerteam"><i class="fa fa-linkedin-square"></i></a>
+                    
+                   <%--<%-- <div class="row">
+                        <div class="col-2">
+                            <ul>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1 ">
+                            <ul>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1 ">
+                           
+                        </div>
+                    </div>--%>
                 </div>
             </div>
         </section>
@@ -127,9 +153,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 slogan">
+                        <h3>I have worked on dozens of projects so I have picked only the latest for you.</h3>
                         <section id="websites">
-                            <div class="bg-secondary">
-                                <h1 class="text-center">Websites</h1>
+                            <div class="text-center">
+                                <h1 class=" title banner">Websites</h1>
                             </div>
                             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                                 <ol class="carousel-indicators">
@@ -175,8 +202,8 @@
                 <div class="row">
                     <div class="col-12 slogan">
                         <section id="desktop">
-                            <div class="bg-secondary">
-                                <h1 class="text-center">desktop</h1>
+                            <div class="text-center">
+                                <h1 class=" banner title">desktop</h1>
                             </div>
                             <div id="desktopindicators" class="carousel slide" data-ride="carousel">
                                 <ol class="carousel-indicators">
@@ -222,8 +249,8 @@
                 <div class="row">
                     <div class="col-12 slogan">
                         <section id="android">
-                            <div class="bg-secondary">
-                                <h1 class="text-center">android</h1>
+                            <div class="text-center">
+                                <h1 class=" banner title">android</h1>
                             </div>
                             <div id="androidindicators" class="carousel slide" data-ride="carousel">
                                 <ol class="carousel-indicators">
@@ -269,12 +296,12 @@
             </div>
         </section>
         <!-- contact section -->
-        <div class="container">
+        <div class="container contactsection">
             <div class="row">
                 <div class="col-lg-12">
                     <header class="text-center slogan">
-                        <div class="bg-secondary">
-                            <h1 class="text-center">CONTACT</h1>
+                        <div class="">
+                            <h1 class="text-center banner title">CONTACT US</h1>
                         </div>
                     </header>
                 </div>
@@ -285,67 +312,89 @@
                     <form class="form-group" id="contact">
                         <div class="form-row">
                             <div class="col">
-                                <input type="text" class="form-control" placeholder="First name">
+                                <input runat="server" id="fname" type="text" class="form-control" placeholder="First name">
                             </div>
                             <div class="col">
-                                <input type="text" class="form-control" placeholder="Last name">
+                                <input type="text" runat="server" id="lname" class="form-control" placeholder="Last name">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col">
-                                <input type="text" class="form-control" placeholder="Your email">
+                                <input type="text" runat="server" id="mail" class="form-control" placeholder="Your email">
                             </div>
                             <div class="col">
-                                <input type="text" class="form-control" placeholder="Your phone">
+                                <input type="text" runat="server" id="phone" class="form-control" placeholder="Your phone">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col">
 
-                                <textarea class="form-control" placeholder="Your message" rows="4" required="required" name="message"></textarea>
+                                <textarea class="form-control" runat="server" id="msg" placeholder="Your message" rows="4" required="required" name="message"></textarea>
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="col">
-                                <button type="submit" class="btn btn-outline-primary">Send message</button>
+                                <button type="submit" runat="server" id="btn_send" class="btn  btn-outline-primary">Send message</button>
                             </div>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
-        <!-- tools section -->
-        <div class="container">
+        <%--  <!-- tools section -->
+        <div class="container" id="tools">
             <div class="row">
-                <div class="col-lg-6">
-                    <p>tools which used in our solutions</p>
+                <div class="col-lg-6 ">
+                    <h4>tools </h4>
                 </div>
+                <div class="col-lg-6">
+                    
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-lg-6">
                     <div class="progress">
                         <h5>ASP.NET MVC</h5>
                         <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                     <div class="progress">
-                         <h5>ASP.NET MVC</h5>
+                        <h5>ASP.NET MVC</h5>
                         <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                     <div class="progress">
-                         <h5>ASP.NET MVC</h5>
+                        <h5>ASP.NET MVC</h5>
                         <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                     <div class="progress">
-                         <h5>ASP.NET MVC</h5>
+                        <h5>ASP.NET MVC</h5>
                         <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                     <div class="progress">
-                         <h5>ASP.NET MVC</h5>
+                        <h5>ASP.NET MVC</h5>
                         <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div>--%>
     </main>
-    <footer class="bg-dark">
+    <footer class="blackbg slogan">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center">
+                         <p> © 2018 Mohammed Sayed Adam. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+             <div class="row">
+                <div class="col-12">
+                    <div class="text-center">
+                         <p> Designed by ADAM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
     </footer>
 </body>
 </html>
