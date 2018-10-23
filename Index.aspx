@@ -11,8 +11,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="jq/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/mine.js"></script>
+    <script src="js/bootstrap.min.js" ></script>
+    
     <link href="css/mine.css" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
@@ -32,16 +32,15 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ml-auto" id="barnav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#first">INTRO <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#first" id="n1">INTRO <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <%-- <button  class="nav-link" onclick="scrollToTop()" >ABOUT</button>--%>
-                        <a class="nav-link" href="#about" onclick="scrollToTop()">ABOUT</a>
+                        <a class="nav-link" href="#about" id="n2" onclick="scrollToTop()">ABOUT</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SERVICES
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SERVICES
                         </a>
                         <div class="dropdown-menu  slogan" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="#websites">WEBSITES</a>
@@ -58,7 +57,7 @@
                         <a class="nav-link" href="#tools">TOOLS</a>
                     </li>--%>
 
-                    <li class="nav-item">
+                    <li class="nav-item" id="n4">
                         <a class="nav-link" href="#contact">CONTACT</a>
                     </li>
                     <%-- <li class="nav-item">
@@ -83,11 +82,11 @@
                 </div>
                 <!-- social section -->
                 <div class="media d-flex flex-column">
-                      <a href="https://www.facebook.com/hardworkerteam"><i class="fa fa-facebook-square"></i></a>
-                      <a href="https://www.facebook.com/hardworkerteam"><i class="fa fa-google-plus-square"></i></a>
-                      <a href="https://www.facebook.com/hardworkerteam"><i class="fa fa-linkedin-square"></i></a>
-                    
-                   <%--<%-- <div class="row">
+                    <a href="https://www.facebook.com/hardworkerteam" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                    <a href="https://www.facebook.com/hardworkerteam" target="_blank"><i class="fa fa-google-plus-square"></i></a>
+                    <a href="https://www.facebook.com/hardworkerteam" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+
+                    <%--<%-- <div class="row">
                         <div class="col-2">
                             <ul>
                             </ul>
@@ -166,21 +165,21 @@
                                 </ol>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img class="d-block w-100 img-thumbnail" src="img/bg1.jpg" alt="First slide">
+                                        <img class="d-block w-100 h-100 img-thumbnail" src="img/bg1.jpg" alt="First slide">
                                         <div class="carousel-caption d-none d-md-block yel">
                                             <h5>first work</h5>
                                             <p>descriptiondescriptiondescriptiondescription</p>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100 img-thumbnail" src="img/logo.png" alt="Second slide">
+                                        <img class="d-block w-100 h-100 img-thumbnail" src="img/logo.png" alt="Second slide">
                                         <div class="carousel-caption d-none d-md-block yel">
                                             <h5>second work</h5>
                                             <p>descriptiondescriptiondescription</p>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100 img-thumbnail" src="img/logo1.png" alt="Third slide">
+                                        <img class="d-block w-100 h-100 img-thumbnail" src="img/logo1.png" alt="Third slide">
                                         <div class="carousel-caption d-none d-md-block yel">
                                             <h5>third work</h5>
                                             <p>descriptiondescriptiondescription</p>
@@ -382,19 +381,20 @@
             <div class="row">
                 <div class="col-12">
                     <div class="text-center">
-                         <p> © 2018 Mohammed Sayed Adam. All Rights Reserved.</p>
+                        <p>© 2018 Mohammed Sayed Adam. All Rights Reserved.</p>
                     </div>
                 </div>
             </div>
-             <div class="row">
+            <div class="row">
                 <div class="col-12">
                     <div class="text-center">
-                         <p> Designed by ADAM</p>
+                        <p>Designed by ADAM</p>
                     </div>
                 </div>
             </div>
         </div>
-       
+
     </footer>
+    <script type="text/javascript" src="js/mine.js"></script>
 </body>
 </html>
